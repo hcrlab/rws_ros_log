@@ -1,0 +1,6 @@
+{
+  "name": "rws-ros-log",
+  "short_name": "rws-ros-log",
+  "start_url": "/",
+  "display": "standalone"
+}

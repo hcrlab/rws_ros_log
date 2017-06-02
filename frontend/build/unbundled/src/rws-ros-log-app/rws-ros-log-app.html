@@ -1,0 +1,19 @@
+<html><head><link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/ros-log/ros-log.html">
+<link rel="import" href="../../bower_components/ros-websocket/ros-websocket.html">
+
+</head><body><dom-module id="rws-ros-log-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <ros-websocket auto="" ros="{{ros}}"></ros-websocket>
+    <ros-log ros="{{ros}}"> </ros-log>
+
+  </template>
+
+  <script>Polymer({is:"rws-ros-log-app",properties:{prop1:{type:String,value:"rws-ros-log-app"}}});</script>
+</dom-module>
+</body></html>
