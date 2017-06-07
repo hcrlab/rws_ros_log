@@ -1,19 +1,16 @@
 <?xml version="1.0"?>
 <package>
   <name>rws_ros_log</name>
-  <version>0.0.0</version>
-  <description>The rws_ros_log package</description>
-
-  <!-- One maintainer tag required, multiple allowed, one person per tag --> 
-  <!-- Example:  -->
-  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="tda5@todo.todo">tda5</maintainer>
+  <version>0.1.0</version>
+  <description>An RWS website that shows ROS logs.</description>
+  <maintainer email="jstn@cs.washington.edu">Justin Huang</maintainer>
+  <author>Tim Adamson</author>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
   <!-- Commonly used license strings: -->
   <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
-  <license>TODO</license>
+  <license>BSD</license>
 
 
   <!-- Url tags are optional, but mutiple are allowed, one per tag -->
@@ -44,8 +41,6 @@
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
-      <appname>Ros Log App</appname> 
-      <!-- Other tools can request additional information be placed here -->
-
+      <appname>ROS logs</appname> 
   </export>
 </package>
