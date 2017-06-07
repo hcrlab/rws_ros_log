@@ -6,5 +6,5 @@ To build the application, check that you are using a [recent version of Polymer]
 ```
 cd frontend
 bower update
-polymer build --present es6-bundled
+polymer build --preset es6-bundled
 ```
